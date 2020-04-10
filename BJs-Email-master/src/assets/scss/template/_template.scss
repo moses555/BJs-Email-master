@@ -1,0 +1,233 @@
+html,
+body,
+.body {
+  background: #e4e5ea;
+  background-color: #e4e5ea;
+}
+
+/////////////////////////////header//////////////////////////////////
+
+.header {
+  background: $primary-color;
+  background-color: $primary-color;
+  padding-bottom: 40px;
+
+  .columns {
+    padding-top: 15px;
+    padding-bottom: 25px !important;
+    // padding-right: 10px !important;
+    // padding-left: 20px !important;
+  }
+
+  a {
+    .bjs_logo {
+      width: 175px;
+      height: auto;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+
+    .menu {
+      width: 210px !important;
+      display: inline-block;
+      vertical-align: bottom;
+      margin-left: 10px !important;
+    }
+
+    .order {
+      width: 110px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+  }
+}
+
+////////////////////////////image////////////////////////////////////
+
+.image {
+  background: $primary-color;
+  background-color: $primary-color;
+
+  .columns {
+    padding-bottom: 0;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .receipt {
+    width: 100%;
+  }
+}
+
+////////////////////////////address/////////////////////////////////
+
+.address {
+  background: $primary-color;
+  background-color: $primary-color;
+  .columns {
+    th {
+      padding-top: 30px;
+    }
+
+    h1 {
+      color: #201f1e;
+      font-weight: 800;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    p {
+      color: #201f1e;
+      font-weight: 500;
+      font-size: 19px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
+
+////////////////////////////thank you//////////////////////////////////
+
+.thank {
+  background: $primary-color;
+  background-color: $primary-color;
+
+  .columns {
+    padding-bottom: 0;
+
+    p {
+      color: #201f1e;
+      font-weight: 300;
+      font-size: 16px;
+      margin-bottom: 0;
+
+      .number {
+        color: #be3426;
+        text-decoration-line: underline;
+      }
+    }
+  }
+}
+
+////////////////////////////order//////////////////////////////////
+
+.order {
+  background: $primary-color;
+  background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .columns {
+    padding-bottom: 0;
+
+    ul {
+      list-style: none;
+    }
+    li {
+      color: #201f1e;
+      font-weight: 300;
+      font-size: 16px !important;
+      padding-bottom: 10px;
+    }
+    span {
+      color: #201f1e;
+      font-weight: 700;
+    }
+  }
+}
+
+////////////////////////////details//////////////////////////////////
+
+.details {
+  background: $primary-color;
+  background-color: $primary-color;
+
+  .items {
+    padding-bottom: 30px;
+  }
+  .payment {
+    padding-bottom: 50px;
+  }
+}
+
+////////////////////////////store//////////////////////////////////
+
+.store {
+  background: $primary-color;
+  background-color: $primary-color;
+  border-top: 1px solid #93918e;
+  border-bottom: 1px solid #93918e;
+
+  .columns {
+    padding-bottom: 3px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-top: 3px !important;
+
+    a {
+      .img {
+        width: 115px;
+        margin-right: 9px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+
+    th {
+      text-align: center;
+    }
+
+    .menu-divider {
+      display: block;
+      height: 40px;
+      width: 1px;
+      background: #93918e;
+      background-color: #93918e;
+    }
+  }
+}
+
+////////////////////////////social//////////////////////////////////
+
+.footer-social {
+  background: $primary-color;
+  background-color: $primary-color;
+  border-bottom: 1px solid #93918e;
+
+  & > tbody > tr > th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  th {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .logo-section {
+    img {
+      width: 115px !important;
+    }
+  }
+
+  .social-icons {
+    img {
+      width: 32px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+////////////////////////////padding//////////////////////////////////
+
+.spaceing {
+  background: $primary-color;
+  background-color: $primary-color;
+
+  .columns {
+    padding-top: 40px;
+    padding-bottom: 40px !important;
+    background: $primary-color;
+    background-color: $primary-color;
+  }
+}
